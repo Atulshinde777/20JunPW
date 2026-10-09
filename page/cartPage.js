@@ -13,13 +13,8 @@ class Cartpage extends Basepage {
     async open() {
 
         await this.goto(ROUTES.CART);
+        CHECKOUT_COMPLETE: '/checkout-complete.html'
+
     }
-
-
-
-
-
-
-
 
 }
