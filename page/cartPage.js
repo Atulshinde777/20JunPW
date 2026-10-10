@@ -14,7 +14,8 @@ class Cartpage extends Basepage {
 
         await this.goto(ROUTES.CART);
         CHECKOUT_COMPLETE: '/checkout-complete.html'
-
+        console.log("Cart page opened");
+        
     }
 
 }
